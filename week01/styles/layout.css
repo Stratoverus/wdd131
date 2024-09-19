@@ -1,10 +1,57 @@
-main {
-    display: grid;
-    height: 300px;
-    grid-template: 1fr auto;
+:root {
+    --color-1: #4C5760;
+    --color-2: #93A8AC;
+    --color-3: #D7CEB2;
+    --color-4: #A59E8C;
+    --color-5: #66635B;
+}
+
+header {
+    background-color: var(--color-2);
+}
+
+main h3{
+    align-self: left;
 }
 
 .menu {
-    text-decoration: none;
     display: flex;
+    justify-content: space-evenly;
+    font-weight: 600;
+    font-size: large;
+    background-color: var(--color-3);
+    
+}
+
+.menu a {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    display: grid;
+    height: 300px;
+    grid-template-columns: 1fr auto;
+}
+
+.main_content {
+    background-color: var(--color-2);
+} 
+
+.aside_content {
+    background-color: var(--color-4);
+}
+
+footer {
+    background-color: var(--color-3);
+    height: 300px;
+    font-size: larger;
+    justify-items: center;
+}
+
+footer h3 {
+    
 }
