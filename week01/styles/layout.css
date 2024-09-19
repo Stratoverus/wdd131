@@ -1,0 +1,10 @@
+main {
+    display: grid;
+    height: 300px;
+    grid-template: 1fr auto;
+}
+
+.menu {
+    text-decoration: none;
+    display: flex;
+}
