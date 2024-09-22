@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Titillium+Web:wght@400&display=swap');
+
+:root {
+    --color1: #773344;
+    --color2: #E3B5A4;
+    --color3: #F5E9E2;
+    --color4: #0B0014;
+    --color5: #D44D5C;
+    --heading-font: 'Playfair Display', serif;
+    --paragraph-font: 'Titillium Web', serif;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    max-width: 1000px;
+}
+
+p {
+    font-family: var(--paragraph-font);
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--heading-font);
+}
+
+header {
+    padding: 10px;
+    background-color: var(--color2);
+    align-items: center;
+}
+
+header nav {
+    background-color: var(--color1);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header nav a {
+    color: var(--color3);
+    font-size: larger;
+    font-weight: 600;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 960px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.card {
+    border: 1px solid var(--color4);
+    border-radius: 10px;
+}
+
+.card h2 {
+    background-color: var(--color2);
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    padding: 10px;
+}
+
+.links li {
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.links li:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #E3B5A4;
+    justify-content: center;
+}
