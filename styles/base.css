@@ -32,6 +32,7 @@ header {
     padding: 10px;
     background-color: var(--color2);
     align-items: center;
+    text-align: center;
 }
 
 header nav {
@@ -72,10 +73,23 @@ main {
     padding: 10px;
 }
 
-.links li {
-    margin: 5px;
-    justify-content: center;
+.about p {
+    padding: 10px;
+    font-size: medium;
+}
+
+.me img {
+    max-width: 200px;
+}
+
+.links {
     align-items: center;
+}
+
+.links li {
+    list-style-type: disc;
+    margin: 5px;
+    font-family: var(--paragraph-font);
 }
 
 .links li:hover {
@@ -85,4 +99,43 @@ main {
 footer {
     background-color: #E3B5A4;
     justify-content: center;
+    text-align: center;
+}
+
+.me {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about img {
+    float: right;
+}
+
+.arizona {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.arizona h3 {
+    grid-column: span 2;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 75%;
+    border-bottom: 1px solid black;
+}
+
+.content {
+    display: contents;
+}
+
+.arizona img {
+    grid: 1 2;
+}
+
+.flag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
