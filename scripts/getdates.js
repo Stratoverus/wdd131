@@ -1,7 +1,6 @@
-const today = new Date();
-
-const lastModified = document.lastModified();
-const currentYear = today.getFullYear();
-
-
-year.innerHTML = `getFullYear(): <span class="highlight">${today.getFullYear()}</span>`;
+window.onload = function() {
+    const lastModified = document.lastModified();
+    document.getElementById('currentYear').textContent = currentYear;
+    const currentYear = today.getFullYear();
+    document.getElementById('lastModified').textContent = lastModified;
+}
