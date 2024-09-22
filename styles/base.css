@@ -82,18 +82,29 @@ main {
     max-width: 200px;
 }
 
-.links {
-    align-items: center;
+.links li:hover {
+    text-decoration: underline;
+}
+
+
+.links-wrapper {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 80%; 
+}
+
+.links ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
 }
 
 .links li {
-    list-style-type: disc;
-    margin: 5px;
-    font-family: var(--paragraph-font);
-}
-
-.links li:hover {
-    text-decoration: underline;
+    margin: 5px 0; 
+    width: 100%;
+    text-align: left;
 }
 
 footer {
@@ -128,10 +139,6 @@ footer {
 
 .content {
     display: contents;
-}
-
-.arizona img {
-    grid: 1 2;
 }
 
 .flag {
