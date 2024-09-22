@@ -1,6 +1,9 @@
 window.onload = function() {
-    const currentYear = today.getFullYear();
+    //current year area
+    const currentYear = new Date().getFullYear();
     document.getElementById('currentYear').textContent = currentYear;
-    const lastModified = document.lastModified();
+    
+    //Last Modified area
+    const lastModified = document.lastModified;
     document.getElementById('lastModified').textContent = lastModified;
 };
