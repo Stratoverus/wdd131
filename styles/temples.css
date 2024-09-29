@@ -30,7 +30,7 @@ body {
     position: absolute;
     top: 100%;
     right: 0;
-    width: 25%;
+    width: 100%;
     background-color: #002845;
     padding: 1rem 0;
     z-index: 1;
