@@ -6,6 +6,33 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
+#menu::before {
+	content: "≡";
+    font-size: xx-large;
+}
+
+#menu {
+    color: white;
+    display: inline-block;
+}
+
+#menu.show::before {
+	content: "X";
+    font-size: Larger;
+}
+
+.navigation {
+	list-style: none;
+	max-width: 800px;
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.navigation.show {
+    display: flex;
+}
+
 header {
     background-color: #004643;
     display: flex;
