@@ -1,9 +1,5 @@
 @media screen and (min-width: 800px) and (max-width: 1200px){
-    header {
-        background-color: #004643;
-    }
-    
-    header h1 {
+     header h1 {
         color: white;
     }
 
@@ -11,17 +7,13 @@
         color: white;
     }
 
-    main {
+    .gallery {
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    header {
-        background-color: black;
-    }
-
-    main {
+    .gallery {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }

@@ -6,9 +6,28 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
+header {
+    background-color: #004643;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200;
+    margin: 1rem auto;
+    padding: 5px;
+}
+
+header h1 {
+    color: white;
+}
+
 nav {
     display: flex;
-    
+    gap: 1rem;
+    font-size: large;  
+}
+
+nav a{
+    color: white;
 }
 
 nav a:hover {
@@ -26,16 +45,15 @@ figcaption {
     text-align: center;
 }
 
-main {
+h2 {
+    text-align: center;
+}
+
+.gallery {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
     justify-items: center;
-}
-
-section {
-    padding: 5px;
-    background-color: azure;
 }
 
 img {
@@ -45,4 +63,9 @@ img {
 footer {
     justify-content: center;
     text-align: center;
+    background-color: #004643;
+}
+
+footer p{
+    color: white;
 }
