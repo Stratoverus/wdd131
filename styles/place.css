@@ -55,7 +55,7 @@ header h1 {
 @media (max-width: 500px) { 
     .weather-heading::after {
         content: url('../images/clear.svg');
-        display: flex; 
+        display: inline-block; 
         width: 24px;
         height: 24px; 
         margin-left: 10px; 
