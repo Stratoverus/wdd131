@@ -8,3 +8,8 @@ window.onload = function() {
     document.getElementById('lastModified').textContent = lastModified;
 };
 
+let temperature = 87;
+let windSpeed = 3;
+
+document.getElementById('temperature').textContent = temperature;
+document.getElementById('wind').textContent = windSpeed;
