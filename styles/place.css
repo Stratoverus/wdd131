@@ -10,7 +10,7 @@
 
 body {
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0;
     max-width: 1000px;
     font-family: var(--paragraph-font);
 }
