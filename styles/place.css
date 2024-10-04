@@ -1,0 +1,56 @@
+:root {
+    --color1: #773344;
+    --color2: #E3B5A4;
+    --color3: #F5E9E2;
+    --color4: #0B0014;
+    --color5: #D44D5C;
+    --heading-font: 'Playfair Display', serif;
+    --paragraph-font: 'Titillium Web', serif;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+    max-width: 1000px;
+    font-family: var(--paragraph-font);
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+}
+
+header {
+    text-align: center;
+}
+
+.weather-heading {
+    position: relative; 
+}
+
+@media (min-width: 500px ) { 
+    .weather-heading::after {
+        content: "☀️";
+        font-size: 24px;
+        margin-left: 10px;
+        vertical-align: middle; 
+    }
+}
+
+@media (max-width: 500px) { 
+    .weather-heading::after {
+        content: url('./images/clear.png');
+        display: inline-block; 
+        width: 24px;
+        height: 24px; 
+        margin-left: 10px; 
+        vertical-align: middle; 
+    }
+
+    body {
+        max-width: 500px;
+    }
+}
+
+footer {
+    text-align: center;
+}
