@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Arizona Information</title>
+    <meta name="description" content="place/country details assignment">
+    <meta name="author" content="Keith Eberhard">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Titillium+Web:wght@400&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <h1>Arizona</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images/arizona-hero-large.webp">
+                <source media="(min-width: 500px)" srcset="images/arizona-hero-medium.webp">
+                <img src="images/arizona-hero-small.webp" alt="" width="500" height="250">
+            </picture>
+        </div>
+        <div class="data">
+
+        </div>
+        <div class="weather">
+
+        </div>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentYear"></span> Keith Eberhard - Arizona, USA 🌵</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
 </body>
 </html>
