@@ -38,7 +38,7 @@ header {
 
 @media (max-width: 500px) { 
     .weather-heading::after {
-        content: url('./images/clear.png');
+        content: url('./images/clear.svg');
         display: inline-block; 
         width: 24px;
         height: 24px; 
