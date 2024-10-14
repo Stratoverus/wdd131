@@ -93,6 +93,14 @@ const temples = [
         imageUrl:
         "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
       },
+      {
+        templeName: "London England",
+        location: "London, United Kingdom",
+        dedicated: "1958, September, 9",
+        area: 42652,
+        imageUrl:
+        "https://churchofjesuschristtemples.org/assets/img/temples/london-england-temple/london-england-temple-53656-thumb.jpg"
+      },
 ]
 
 createTempleCard(temples);
