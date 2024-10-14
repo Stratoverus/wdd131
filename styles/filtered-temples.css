@@ -51,6 +51,7 @@ header {
     margin: 1rem auto;
     padding: 5px;
     position: relative;
+    flex-wrap: nowrap;
 }
 
 header h1 {
@@ -60,7 +61,7 @@ header h1 {
 nav {
     display: flex;
     gap: 1rem;
-    font-size: large;  
+    font-size: large;
 }
 
 nav a{
