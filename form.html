@@ -17,7 +17,38 @@
         <h1>Product Review</h1>
     </header>
     <main>
-        
+        <form method="get" action="review.html" class="rf1">
+            <fieldset>
+                <label>Product Name
+                    <select name="product" required>
+                        <option value="">Please Select</option>
+                        <option value="test">placeholder</option>
+                        <option value="test1">placeholder</option>
+                    </select>
+                </label>
+
+                <div>Overall Rating</div>
+                <label><input type="radio" name="rating" value="1star"> ⭐</label>
+                <label><input type="radio" name="rating" value="2star"> ⭐⭐</label>
+                <label><input type="radio" name="rating" value="3star"> ⭐⭐⭐</label>
+                <label><input type="radio" name="rating" value="4star"> ⭐⭐⭐⭐</label>
+                <label><input type="radio" name="rating" value="5star"> ⭐⭐⭐⭐⭐</label>
+
+                <label>Date of Installation <input type="date" name="installDate" required></label>
+
+                <div>Which features did you find useful in the product?</div>
+                <div>(Check all that apply)</div>
+                <label><input type="checkbox" name="features" value="yes"> Durability</label>
+                <label><input type="checkbox" name="features" value="yes"> Ease of Use</label>
+                <label><input type="checkbox" name="features" value="yes"> Performance</label>
+                <label><input type="checkbox" name="features" value="yes"> Design</label>
+
+                <label>Written Review <input type="textarea" name="review" required></label>
+                <label>Your Name <input type="text" name="name" required></label>
+
+            </fieldset>
+            <input type="submit" value="Post Review">
+        </form>
     </main>
     <footer>
         <p>&copy;<span id="currentYear"></span> Keith Eberhard - Arizona, USA 🌵</p>
