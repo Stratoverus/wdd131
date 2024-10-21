@@ -20,7 +20,7 @@
         <form method="get" action="review.html" class="rf1">
             <fieldset>
                 <label>Product Name
-                    <select name="product" required>
+                    <select name="product" id="pName" required>
                         <option value="">Please Select</option>
                         <option value="test">placeholder</option>
                         <option value="test1">placeholder</option>
@@ -43,8 +43,9 @@
                 <label><input type="checkbox" name="features" value="yes"> Performance</label>
                 <label><input type="checkbox" name="features" value="yes"> Design</label>
 
-                <label>Written Review <input type="textarea" name="review" required></label>
-                <label>Your Name <input type="text" name="name" required></label>
+                <div>Written Review</div>
+                <textarea id="review" name="review" rows="4" cols="50"></textarea>
+                <label>Your Name <input type="text" name="name"></label>
 
             </fieldset>
             <input type="submit" value="Post Review">
