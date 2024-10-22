@@ -32,9 +32,33 @@ fieldset {
     border: none;
 }
 
+.checkboxes {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.checkbox-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.rating-label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+label {
+    padding: 5px;
+}
+
 /*Footer*/
 footer {
     background-color: darkblue;
     color: white;
     text-align: center;
+    padding: 5px;
 }
