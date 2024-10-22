@@ -35,3 +35,15 @@ const products = [
       averagerating: 5.0
     }
   ];
+
+populateProductNames()
+
+function populateProductNames() {
+  const productSelct = document.getElementById('pName');
+  products.forEach(product => {
+    const option = document.createElement('option');
+    option.value = product.id;
+    option.textContent = product.name;
+    productSelct.appendChild(option);
+  })
+}
