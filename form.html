@@ -19,13 +19,12 @@
     <main>
         <form method="get" action="review.html" class="rf1">
             <fieldset>
-                <label>Product Name
-                    <select name="product" id="pName" required>
-                        <option value="">Please Select</option>
-                        <option value="test">placeholder</option>
-                        <option value="test1">placeholder</option>
-                    </select>
-                </label>
+                <label for="product">Product Name</label>
+                <select name="product" id="pName" required>
+                    <option value="">Please Select</option>
+                    <option value="test">placeholder</option>
+                    <option value="test1">placeholder</option>
+                </select>
 
                 <div>Overall Rating</div>
                 <div class="checkboxes">
@@ -52,7 +51,8 @@
                 </div>
                
 
-                <label>Date of Installation <input type="date" id="installDate" name="installDate" required></label>
+                <label>Date of Installation </label>
+                <input type="date" id="installDate" name="installDate" required>
 
                 <div>Which features did you find useful in the product?</div>
                 <div>(Check all that apply)</div>
