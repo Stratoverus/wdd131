@@ -88,6 +88,13 @@ textarea {
     margin-bottom: 15px;
 }
 
+#submit {
+    width: 300px;
+    padding: 7px;
+    margin: 5px auto;
+    font-size: large;
+}
+
 .review {
     margin-top: 15px;
 }

@@ -6,6 +6,12 @@ window.onload = function() {
     //Last Modified area
     const lastModified = document.lastModified;
     document.getElementById('lastModified').textContent = lastModified;
+
+    if (window.location.pathname.includes("review.html")) {
+      displaySubmissionCount();
+    } else {
+      setupForm();
+    };
 };
 
 const products = [
@@ -46,4 +52,36 @@ function populateProductNames() {
     option.textContent = product.name;
     productSelct.appendChild(option);
   })
+}
+
+function setupForm() {
+  const form = document.querySelector('form');
+
+  if (form) {
+      form.addEventListener('submit', function() {
+          incrementCounter();
+      });
+  }
+}
+
+function incrementCounter() {
+  let submissionCount = localStorage.getItem('submissionCount');
+
+  if (submissionCount) {
+      submissionCount = parseInt(submissionCount) + 1;
+  } else {
+      submissionCount = 1;
+  }
+
+  localStorage.setItem('submissionCount', submissionCount);
+}
+
+function displaySubmissionCount() {
+  let submissionCount = localStorage.getItem('submissionCount');
+
+  if (!submissionCount) {
+      submissionCount = 0;
+  }
+
+  document.getElementById('submissionCounter').textContent = submissionCount;
 }
