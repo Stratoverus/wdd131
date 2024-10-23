@@ -9,12 +9,47 @@
 }
 
 /**Body**/
-
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 /**Header**/
-
+header {
+    background-color: var(--color5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
 
 /**Main**/
+main {
+    background-color: var(--color2);
+}
 
+h2 {
+    text-align: center;
+    padding: 5px;
+    background-color: var(--color3);
+}
+
+p {
+    text-align: center;
+    font-weight: 500;
+}
+
+img {
+    max-width: 400px;
+}
+
+.wireframe {
+    display: grid;
+    justify-content: center;
+}
 
 /**Footer**/
+footer {
+    background-color: var(--color5);
+    color: white;
+    padding: 10px;
+}
