@@ -14,3 +14,78 @@ hambutton.addEventListener('click', () => {
 	mainnav.classList.toggle('show');
 	hambutton.classList.toggle('show');
 });
+
+const hikes = [
+    {
+        hikeName: "Spook Mountain",
+        location: "Mesa, Arizona",
+        description: "1996, October, 19",
+        imageUrl: "images/picture.jpg",
+        lengthMiles: .8,
+        elevationGain: 328
+    },
+    {
+        hikeName: "",
+        location: "",
+        description: "",
+        imageUrl: "images/",
+        lengthMiles: 0,
+        elevationGain: 0
+    },
+    {
+        hikeName: "",
+        location: "",
+        description: "",
+        imageUrl: "images/",
+        lengthMiles: 0,
+        elevationGain: 0
+    },
+    {
+        hikeName: "",
+        location: "",
+        description: "",
+        imageUrl: "images/",
+        lengthMiles: 0,
+        elevationGain: 0
+    },
+    {
+        hikeName: "",
+        location: "",
+        description: "",
+        imageUrl: "images/",
+        lengthMiles: 0,
+        elevationGain: 0
+    },
+    {
+        hikeName: "",
+        location: "",
+        description: "",
+        imageUrl: "images/",
+        lengthMiles: 0,
+        elevationGain: 0
+    },
+    {
+        hikeName: "",
+        location: "",
+        description: "",
+        imageUrl: "images/",
+        lengthMiles: 0,
+        elevationGain: 0
+    },
+    {
+        hikeName: "",
+        location: "",
+        description: "",
+        imageUrl: "images/",
+        lengthMiles: 0,
+        elevationGain: 0
+    },
+    {
+        hikeName: "",
+        location: "",
+        description: "",
+        imageUrl: "images/",
+        lengthMiles: 0,
+        elevationGain: 0
+    },
+]
