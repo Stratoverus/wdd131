@@ -80,8 +80,14 @@ nav a:hover {
 }
 
 .filter a {
-    color: black;
+    color: white;
     font-weight: 600;
+}
+
+.filterbox {
+    background-color: var(--color1);
+    padding: 10px;
+    color: white;
 }
 
 @media screen and (min-width: 800px) {
