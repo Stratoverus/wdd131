@@ -202,6 +202,20 @@ main {
     text-align: center;
 }
 
+.notificationForm {
+    background-color: var(--color1);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.notificationForm button {
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 2px 6px;
+    border: none;
+}
+
 /**Footer**/
 footer {
     text-align: center;
