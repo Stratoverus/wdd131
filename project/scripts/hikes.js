@@ -36,7 +36,7 @@ const hikes = [
         hikeName: "Butcher Jones Trail",
         location: "Saguaro Lake, Tonto National Forest",
         description: "The Butcher Jones Trail is a scenic and popular hike located alongside Saguaro Lake, offering breathtaking views of the lake’s crystal blue waters framed by rugged desert cliffs. This moderate, well-maintained trail is known for its winding path through desert flora, including towering saguaro cacti, palo verde trees, and seasonal wildflowers. The trail follows the lakeshore, providing several panoramic viewpoints and even access to hidden coves and beach areas where hikers can relax or take a dip. Perfect for both hiking and birdwatching, the Butcher Jones Trail is a year-round favorite, though spring and fall offer the most comfortable temperatures. The trail can be narrow in places with a few rocky sections, so sturdy footwear is recommended. Keep an eye out for local wildlife, such as bighorn sheep, wild horses, and various water birds. Saguaro Lake’s marina is nearby, so you can end your hike with a picnic or grab a bite at the nearby lakeside cafe.",
-        imageUrl: "images/butcher-jones.jpg",
+        imageUrl: "images/butcher-jones.webp",
         lengthMiles: 4.9,
         elevationGain: 541
     },
@@ -68,7 +68,7 @@ const hikes = [
         hikeName: "Hieroglyphic Trail",
         location: "Superstition Wilderness, Gold Canyon, Arizona",
         description: "The Hieroglyphic Trail is a scenic and culturally rich hike in the Superstition Wilderness, leading to a fascinating collection of ancient petroglyphs etched by the Hohokam people. This 2.8-mile round-trip trail is relatively short but offers a moderate challenge due to some rocky and uneven sections. The trail gradually ascends to a series of boulders and small pools, often filled with seasonal water, where petroglyphs can be found on the rocks. These rock carvings depict animals, human figures, and symbols, offering a glimpse into the area's ancient history. Surrounded by saguaro cacti, cholla, and beautiful desert landscapes, the trail provides excellent views of the Superstition Mountains along the way. The best time to hike is in the cooler months, as shade is limited, and the trail can get hot during midday. This family-friendly hike is popular among photographers, history buffs, and hikers of all levels. It’s best to bring sturdy shoes, plenty of water, and a camera to capture the petroglyphs and the beautiful desert scenery.",
-        imageUrl: "images/hieroglyphic-trail.jpg",
+        imageUrl: "images/hieroglyphic-trail.webp",
         lengthMiles: 3,
         elevationGain: 567
     },
@@ -76,7 +76,7 @@ const hikes = [
         hikeName: "Flatiron Hike",
         location: "Superstition Wilderness, Apache Junction, Arizona",
         description: "The Flatiron Hike is one of the most popular and challenging hikes in the Superstition Mountains, known for its breathtaking views and rugged terrain. This 6-mile round-trip hike is steep and demanding, gaining approximately 1,200 feet in elevation, making it suitable for experienced hikers looking for a rewarding adventure. The trail begins at the First Water Trailhead and follows the steep ascent to the Flatiron, a prominent rock formation that offers panoramic views of the surrounding mountains and valleys. Hikers navigate rocky paths, switchbacks, and some scrambling, particularly as they approach the summit. Along the way, you'll be treated to stunning vistas of the iconic Superstition Mountains, diverse desert flora, and possibly wildlife like deer and various bird species. It's best to hike Flatiron in the early morning or late afternoon to avoid the heat and enjoy cooler temperatures, especially during the warmer months. Due to the strenuous nature of the hike, it’s essential to carry plenty of water, wear sturdy hiking shoes, and be prepared for challenging conditions. The payoff at the top is well worth the effort, as the breathtaking views from Flatiron create an unforgettable experience for those who reach its summit.",
-        imageUrl: "images/flatiron-hike.jpg",
+        imageUrl: "images/flatiron-hike.webp",
         lengthMiles: 6,
         elevationGain: 2625
     },
