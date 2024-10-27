@@ -128,6 +128,27 @@ main {
 
 .hikes img {
     max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hikes section {
+    background-color: var(--color3);
+    padding: 5px;
+}
+
+.hikes {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    justify-items: center;
+    text-align: center;
+}
+
+@media screen and (min-width: 800px){
+   .hikes {
+       grid-template-columns: 1fr 1fr;
+   }
 }
 
 .intro {

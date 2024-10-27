@@ -124,9 +124,10 @@ function createHikeCard(filteredHikes) {
 
         name.textContent = hike.hikeName;
         location.innerHTML = `<span class="label">Location:</span> ${hike.location}`;
-        description.innerHTML = `<span class="label">Description:</span> ${hike.description}`;
         length.innerHTML = `<span class="label">Length:</span> ${hike.lengthMiles.toLocaleString()} Miles`;
         elevation.innerHTML = `<span class="label">Elevation:</span> ${hike.elevationGain.toLocaleString()} Feet`;
+        description.innerHTML = `<span class="label">Description:</span> ${hike.description}`;
+        
 
         img.setAttribute("src", hike.imageUrl);
         img.setAttribute("alt", `${hike.hikeName} Hike`);
@@ -134,10 +135,11 @@ function createHikeCard(filteredHikes) {
 
         card.appendChild(name);
         card.appendChild(location);
-        card.appendChild(description);
-        card.appendChild(img);
         card.appendChild(length);
         card.appendChild(elevation);
+        card.appendChild(description);
+        card.appendChild(img);
+        
 
         
         document.querySelector(".hikes").appendChild(card);
