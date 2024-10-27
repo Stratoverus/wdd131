@@ -79,6 +79,11 @@ nav a:hover {
     display: flex;
 }
 
+.filter a {
+    color: black;
+    font-weight: 600;
+}
+
 @media screen and (min-width: 800px) {
     #menu {
         display: none;
